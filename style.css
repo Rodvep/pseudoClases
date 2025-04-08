@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+p:first-child{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+li:nth-child(2){
+    color: blue;
+    font-style: italic;
+}
+
+input:focus{
+    border-color: green;
+    outline: none;
+    box-shadow: 0 0 5px green;
+}
